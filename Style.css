@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+.fachada {
+  background: url("imagens/fachada.jpg") center/cover no-repeat;
+  height: 80vh;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 3em;
+  color: #f5b000;
+}
+
+.overlay p {
+  font-size: 1.3em;
+}
+
+section {
+  padding: 20px;
+}
+
+.galeria {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.galeria img {
+  width: 250px;
+  border-radius: 10px;
+}
